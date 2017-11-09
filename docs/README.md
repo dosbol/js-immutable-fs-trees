@@ -19,10 +19,10 @@ Make directory node
 **Parameters**
 
 -   `name` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
--   `children` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)>**  (optional, default `[]`)
+-   `children` **[Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)&lt;[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)>**  (optional, default `[]`)
 -   `meta` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)**  (optional, default `{}`)
 
-Returns **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)** 
+Returns **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)** 
 
 ## mkfile
 
@@ -33,7 +33,7 @@ Make file node
 -   `name` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
 -   `meta` **[Object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object)**  (optional, default `{}`)
 
-Returns **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)** 
+Returns **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)** 
 
 ## map
 
@@ -41,8 +41,8 @@ Map tree
 
 **Parameters**
 
--   `f` **function ([Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)): any** 
--   `node` **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)** 
+-   `f` **function ([Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)): any** 
+-   `node` **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)** 
 
 ## reduce
 
@@ -50,8 +50,8 @@ Filter tree
 
 **Parameters**
 
--   `f` **function (T, [Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)): T** 
--   `node` **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)** 
+-   `f` **function (T, [Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)): T** 
+-   `node` **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)** 
 -   `acc` **T** 
 
 Returns **T** 
@@ -62,5 +62,5 @@ Filter tree
 
 **Parameters**
 
--   `f` **function ([Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)): [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
--   `node` **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling)** 
+-   `f` **function ([Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)): [boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)** 
+-   `node` **[Node](https://developer.mozilla.org/en-US/docs/Web/API/Node)** 
